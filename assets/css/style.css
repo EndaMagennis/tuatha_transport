@@ -1,0 +1,19 @@
+.{
+    box-sizing: border-box;
+    font-family: Roboto, Arial;
+}
+
+header {
+    display: flex;
+    align-items:
+}
+
+#logo{
+    width: 5%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+
+}
