@@ -1,16 +1,20 @@
-.{
+* {
     box-sizing: border-box;
     font-family: Roboto, Arial;
 }
- body{
-    background-color: #e4eda1;
+
+body{
+    background-color: #66b9ed;
  }
 /*header styling*/
 header {
     display: flex;
-    align-items: center;
+    width: 100%;
     justify-content: space-between;
-    background: url('https://images.pexels.com/photos/1070534/pexels-photo-1070534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center cover no-repeat fixed;
+    align-items: center;
+    border-bottom: 1px solid silver;
+    padding: 0;
+    margin: 0;
 }
 
 #logo{
@@ -25,7 +29,7 @@ header {
 
 a {
     text-decoration: none;
-    color: #fafafa
+    color: #fafafa;
 }
 
 a:hover {
@@ -34,33 +38,48 @@ a:hover {
 }
 
 /*body styling*/
-#main-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blue;
-
-}
-
 #mission-statement{
+    width: 100%;
     justify-self: center;
-    align-self: center;
-    background-color: yellow;
-}
-
-.text-chunk-left{
     align-self: flex-start;
-    justify-self: flex-start;
+    background-color: blue;
+    color: #fafafa;
+    text-align: center;
+}
+#mission-statement h1{
+    font-size: 300%;
 }
 
-.text-chunk-right{
-    align-self: flex-end;
-    justify-self: flex-end;
+#main-content{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: blue;
+}
+
+#main-content div{
+    width: 33%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+.text-chunk{
+    font-size: 120%;
+}
+
+.text-chunk h3{
+    text-decoration: underline;
 }
 
 .hero-image{
-    align-self: center;
-    background-image:url("")
+    height: 500px;
+    background: red
+                url('https://images.pexels.com/photos/1070534/pexels-photo-1070534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 
+                center / cover
+                no-repeat
+                fixed;
 }
 
 footer {
