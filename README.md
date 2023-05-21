@@ -6,21 +6,21 @@
 --------------------------------------------
 ## Table of Contents
 
-1.[ Background ](#background)
-2.[ UX Design ](#ux)
-  -[ Strategy ](#strategy)
-    -[ User Stories ](#stories)
-  -[ Scope ](#scope)
-  -[ Structure ](#map)
-  -[ Skeleton ](#wire)
-3.[ Features ](#feat)
-4.[ Tech Stack ](#tech)
-5.[ Testing ](#test)
-6.[ Bugs/Fixes ](#bugs)
-7.[ Deployment ](#deploy)
-8.[ Credits ](#cred)
-9.[ Content ](#content)
-10.[ Acknowledgements ](#ack)
+1. [ Background ](#background)
+2. [ UX Design ](#ux)
+  - [ Strategy ](#strategy)
+    - [ User Stories ](#stories)
+  - [ Scope ](#scope)
+  - [ Structure ](#map)
+  - [ Skeleton ](#wire)
+3. [ Features ](#feat)
+4. [ Tech Stack ](#tech)
+5. [ Testing ](#test)
+6. [ Bugs/Fixes ](#bugs)
+7. [ Deployment ](#deploy)
+8. [ Credits ](#cred)
+9. [ Content ](#content)
+10. [ Acknowledgements ](#ack)
 --------------------------------------------
 
 <a name="background"></a>
