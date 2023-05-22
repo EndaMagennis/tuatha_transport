@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
@@ -14,7 +14,7 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 3px solid silver;
+    border-bottom: 2px solid black;
     padding: 0;
     margin: 0;
 }
@@ -41,7 +41,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #a1beed;
+    color: #FCB97D;
 }
 
 #mission-statement{
@@ -96,7 +96,7 @@ a:hover {
     color: #387D7A;
 }
 
-/*body styling*/
+/*body styling index*/
 #main-content{
     width: 100%;
     display: flex;
@@ -117,15 +117,8 @@ a:hover {
     justify-content: center;
 }
 
-#text-chunk-left p{
-    float: left;
-    justify: left;
-    border: 1px solid black;
-}
 
-#text-chunk-right {
-    justify-self: flex-end;
-}
+
 .gene-quote{
     text-transform: capitalize;
     font-style: italic;
@@ -144,6 +137,42 @@ a:hover {
                 no-repeat
                 local;
 }
+
+/*body styling meet-the-team*/
+#mission-statement-team{
+    display: flex;
+    justify-content: center;
+    background: #AABA9E
+                url("/assets/images/crate_building.jpg")
+                center center/100% auto
+                no-repeat
+                fixed;
+    width: 100%;
+    height: 500px;
+    color: #fafafa;
+    text-align: center;
+}
+#team {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.pairs{
+    width: 25%;
+    padding: 2%;
+    font-size: 1.2rem;
+    font-family: Helvetica;
+}
+.pairs img{
+    width: 100%;
+}
+.pairs p{
+    justify-items: center;
+    align-self: center;
+}
+
 /*footer styling*/
 footer {
     display: flex;
@@ -151,6 +180,7 @@ footer {
     flex-flow: row wrap;
     justify-content: center;
     height: 200px;
+    border-top: 2px solid black;
 }
 
 footer div{
@@ -167,7 +197,10 @@ footer div{
     color: #FCB97D;
 }
 
+#social-links i:hover{
+    color: #FAFAFA;
+}
+
 #copyright{
     align-self: flex-end;
-    justify-self: flex-end;
 }
