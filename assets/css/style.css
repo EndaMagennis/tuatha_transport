@@ -1,32 +1,30 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-family: Arial, sans-serif;
 }
 
 body{
-    background: AliceBlue
-                url('https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 
-                center / cover
-                no-repeat
-                fixed;
-
+    background-color: #B5B8A3;
  }
 /*header styling*/
 header {
+    background-color: #C6B89E;
     display: flex;
     flex-flow: row wrap;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid silver;
+    border-bottom: 3px solid silver;
     padding: 0;
     margin: 0;
-    
 }
 
 #logo{
     width: 10%;
     height: auto;
+    opacity: 0.7;
+    padding: 1%;
+    border-radius: 100%;
 }
 
 #menu li{
@@ -49,7 +47,7 @@ a:hover {
 #mission-statement{
     display: flex;
     justify-content: center;
-    background: DarkCyan
+    background: #AABA9E
                 url("/assets/images/art-handlers.jpg")
                 center center/100% auto
                 no-repeat
@@ -73,7 +71,7 @@ a:hover {
     width: 66%;
     border-radius: 20px;
     height: auto;
-    background-color: rgba(57, 94, 102, 0.6);
+    background-color: rgba(170, 186, 158, 0.7);
 }
 
 .button{
@@ -103,19 +101,31 @@ a:hover {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-items: flex-start;
 }
 
 #main-content div{
     width: 33%;
-    border: 2px solid black;
     text-align: center;
 }
 
 .text-chunk{
     font-size: 120%;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
+#text-chunk-left p{
+    float: left;
+    justify: left;
+    border: 1px solid black;
+}
+
+#text-chunk-right {
+    justify-self: flex-end;
+}
 .gene-quote{
     text-transform: capitalize;
     font-style: italic;
@@ -125,16 +135,22 @@ a:hover {
     text-decoration: underline;
 }
 
-.hero-image{
+.center-image{
+    width: 500px;
     height: 500px;
-    
+    border-radius: 100%;
+    background: url("https://images.pexels.com/photos/14774678/pexels-photo-14774678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+                center center / 100% auto
+                no-repeat
+                local;
 }
-
+/*footer styling*/
 footer {
     display: flex;
-    background-color: yellow;
+    background-color: #C6B89E;
     flex-flow: row wrap;
     justify-content: center;
+    height: 200px;
 }
 
 footer div{
@@ -148,7 +164,7 @@ footer div{
 
 #social-links i{
     font-size: 200%;
-    color: silver;
+    color: #FCB97D;
 }
 
 #copyright{
