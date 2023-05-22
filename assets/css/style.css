@@ -4,21 +4,27 @@
 }
 
 body{
-    background-color: #66b9ed;
+    background: AliceBlue
+                url('') 
+                center / cover
+                no-repeat
+                fixed;
  }
 /*header styling*/
 header {
     display: flex;
+    flex-flow: row wrap;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid silver;
     padding: 0;
     margin: 0;
+    
 }
 
 #logo{
-    width: 100px;
+    width: 10%;
     height: auto;
 }
 
@@ -37,25 +43,26 @@ a:hover {
     color: #a1beed;
 }
 
-/*body styling*/
 #mission-statement{
+    background: DarkCyan
+                url('')
     width: 100%;
     justify-self: center;
     align-self: flex-start;
-    background-color: blue;
     color: #fafafa;
     text-align: center;
+    background: 
 }
 #mission-statement h1{
     font-size: 300%;
 }
 
+/*body styling*/
 #main-content{
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    background-color: blue;
 }
 
 #main-content div{
@@ -64,9 +71,13 @@ a:hover {
     text-align: center;
 }
 
-
 .text-chunk{
     font-size: 120%;
+}
+
+.gene-quote{
+    text-transform: capitalize;
+    font-style: italic;
 }
 
 .text-chunk h3{
@@ -75,13 +86,31 @@ a:hover {
 
 .hero-image{
     height: 500px;
-    background: red
-                url('https://images.pexels.com/photos/1070534/pexels-photo-1070534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 
-                center / cover
-                no-repeat
-                fixed;
+    
 }
 
 footer {
     display: flex;
+    background-color: yellow;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+}
+
+#social-links i{
+    font-size: 200%;
+    color: silver;
+}
+
+#copyright{
+    align-self: flex-end;
+    justify-self: flex-end;
 }
