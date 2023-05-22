@@ -48,7 +48,7 @@ a:hover {
     display: flex;
     justify-content: center;
     background: #AABA9E
-                url("/assets/images/art-handlers.jpg")
+                url("assets/images/art-handlers.jpg")
                 center center/100% auto
                 no-repeat
                 fixed;
@@ -143,7 +143,7 @@ a:hover {
     display: flex;
     justify-content: center;
     background: #AABA9E
-                url("/assets/images/crate_building.jpg")
+                url("assets/images/crate_building.jpg")
                 center center/100% auto
                 no-repeat
                 fixed;
