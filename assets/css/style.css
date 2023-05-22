@@ -5,10 +5,11 @@
 
 body{
     background: AliceBlue
-                url('') 
+                url('https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') 
                 center / cover
                 no-repeat
                 fixed;
+
  }
 /*header styling*/
 header {
@@ -29,11 +30,13 @@ header {
 }
 
 #menu li{
-    display: inline;
     padding: 5px;
+    display: inline;
+    list-style: none;
 }
 
 a {
+    font-size: 1.2rem;
     text-decoration: none;
     color: #fafafa;
 }
@@ -44,24 +47,62 @@ a:hover {
 }
 
 #mission-statement{
+    display: flex;
+    justify-content: center;
     background: DarkCyan
-                url('')
+                url("/assets/images/art-handlers.jpg")
+                center center/100% auto
+                no-repeat
+                fixed;
     width: 100%;
-    justify-self: center;
-    align-self: flex-start;
+    height: 500px;
     color: #fafafa;
     text-align: center;
-    background: 
 }
 #mission-statement h1{
     font-size: 300%;
+}
+
+#mission-statement h2{
+    font-size: 200%;
+}
+
+.container{
+    align-self: center;
+    justify-self: center;
+    width: 66%;
+    border-radius: 20px;
+    height: auto;
+    background-color: rgba(57, 94, 102, 0.6);
+}
+
+.button{
+    font-size: 1.2rem;
+    padding: 0.2%;
+    margin: 2%;
+    background-color: #387D7A;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: #fafafa;
+    color: #387D7A;
+}
+
+.button a {
+    color: #fafafa;
+}
+
+.button a:hover{
+    text-decoration: none;
+    color: #387D7A;
 }
 
 /*body styling*/
 #main-content{
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
 }
 
