@@ -1,11 +1,15 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-body{
+body {
     background-color: #B5B8A3;
- }
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
 /*header styling*/
 header {
     background-color: #C6B89E;
@@ -19,7 +23,7 @@ header {
     margin: 0;
 }
 
-#logo{
+#logo {
     width: 10%;
     height: auto;
     opacity: 0.7;
@@ -27,7 +31,7 @@ header {
     border-radius: 100%;
 }
 
-#menu li{
+#menu li {
     padding: 5px;
     display: inline;
     list-style: none;
@@ -44,11 +48,11 @@ a:hover {
     color: #FCB97D;
 }
 
-#mission-statement{
+#mission-statement {
     display: flex;
     justify-content: center;
     background: #AABA9E
-                url("assets/images/art-handlers.jpg")
+                url("https://www.artnews.com/wp-content/uploads/2023/02/GettyImages-1235760105.jpg?w=2000")
                 center center/100% auto
                 no-repeat
                 fixed;
@@ -57,15 +61,16 @@ a:hover {
     color: #fafafa;
     text-align: center;
 }
-#mission-statement h1{
+
+#mission-statement h1 {
     font-size: 300%;
 }
 
-#mission-statement h2{
+#mission-statement h2 {
     font-size: 200%;
 }
 
-.container{
+.container {
     align-self: center;
     justify-self: center;
     width: 66%;
@@ -74,7 +79,7 @@ a:hover {
     background-color: rgba(170, 186, 158, 0.7);
 }
 
-.button{
+.button {
     font-size: 1.2rem;
     padding: 0.2%;
     margin: 2%;
@@ -82,7 +87,7 @@ a:hover {
     border-radius: 5px;
 }
 
-.button:hover{
+.button:hover {
     background-color: #fafafa;
     color: #387D7A;
 }
@@ -91,44 +96,45 @@ a:hover {
     color: #fafafa;
 }
 
-.button a:hover{
+.button a:hover {
     text-decoration: none;
     color: #387D7A;
 }
 
 /*body styling index*/
-#main-content{
+#main-content {
     width: 100%;
     display: flex;
     align-items: center;
     justify-items: flex-start;
 }
 
-#main-content div{
+#main-content section {
     width: 33%;
     text-align: center;
+    padding: 1%;
 }
 
-.text-chunk{
+.text-chunk {
     font-size: 120%;
     color: white;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
 }
 
+#text-chunk-left {
+    float: left;
+}
 
-
-.gene-quote{
+.gene-quote {
     text-transform: capitalize;
     font-style: italic;
+    color: black;
 }
 
-.text-chunk h3{
+.text-chunk h3 {
     text-decoration: underline;
 }
 
-.center-image{
+.center-image {
     width: 500px;
     height: 500px;
     border-radius: 100%;
@@ -139,11 +145,11 @@ a:hover {
 }
 
 /*body styling meet-the-team*/
-#mission-statement-team{
+#mission-statement-team {
     display: flex;
     justify-content: center;
     background: #AABA9E
-                url("assets/images/crate_building.jpg")
+                url("https://images.pexels.com/photos/3280130/pexels-photo-3280130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
                 center center/100% auto
                 no-repeat
                 fixed;
@@ -159,16 +165,18 @@ a:hover {
     justify-content: space-between;
 }
 
-.pairs{
+.pairs {
     width: 25%;
     padding: 2%;
     font-size: 1.2rem;
     font-family: Helvetica;
 }
-.pairs img{
+
+.pairs img {
     width: 100%;
 }
-.pairs p{
+
+.pairs p {
     justify-items: center;
     align-self: center;
 }
@@ -183,7 +191,7 @@ footer {
     border-top: 2px solid black;
 }
 
-footer div{
+footer div {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -192,15 +200,15 @@ footer div{
     margin: 1%;
 }
 
-#social-links i{
+#social-links i {
     font-size: 200%;
     color: #FCB97D;
 }
 
-#social-links i:hover{
+#social-links i:hover {
     color: #FAFAFA;
 }
 
-#copyright{
+#copyright {
     align-self: flex-end;
 }
