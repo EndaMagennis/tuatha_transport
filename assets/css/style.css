@@ -18,9 +18,18 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid black;
     padding: 0;
     margin: 0;
+}
+
+nav {
+    width: 100%;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+
+nav ul{
+    width: 50%;
 }
 
 #logo {
@@ -28,12 +37,11 @@ header {
     height: auto;
     opacity: 0.7;
     padding: 1%;
-    border-radius: 100%;
 }
 
 #menu li {
     padding: 5px;
-    display: inline;
+    display: inline-block;
     list-style: none;
 }
 
@@ -62,11 +70,11 @@ a:hover {
     text-align: center;
 }
 
-#mission-statement h1 {
+h1 {
     font-size: 300%;
 }
 
-#mission-statement h2 {
+h2 {
     font-size: 200%;
 }
 
@@ -150,7 +158,7 @@ a:hover {
     justify-content: center;
     background: #AABA9E
                 url("https://images.pexels.com/photos/3280130/pexels-photo-3280130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
-                center center/100% auto
+                top: -100px /100% auto
                 no-repeat
                 fixed;
     width: 100%;
