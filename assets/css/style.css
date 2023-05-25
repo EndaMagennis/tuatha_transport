@@ -126,6 +126,10 @@ a:hover {
     border: 1px solid red;
 }
 
+#main-content section img{
+    width:100%;
+}
+
 .text-chunk {
     font-size: 120%;
     color: white;
@@ -145,14 +149,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.center-image {
-    width: 100%;
-    border: 2px solid #fafafa;
-    background: url("https://images.pexels.com/photos/860662/pexels-photo-860662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
-                center center / 100% auto
-                no-repeat
-                local;
-}
 
 /*body styling meet-the-team*/
 #mission-statement-team {
