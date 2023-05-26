@@ -49,7 +49,7 @@ nav {
     color: #FAFAFA;
 }
 
-a:hover {
+#menu a:hover {
     text-decoration: underline;
     color: #FCB97D;
 }
