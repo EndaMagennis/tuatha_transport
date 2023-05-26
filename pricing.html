@@ -8,6 +8,9 @@
 <meta name="description" content="A Wesite for Tuatha Transport Services"/>
 <meta name="keywords" content="fine art transport, Tuatha Transport Services, art transport, gallery installations, gallery removals, art, art gallery, Ireland, Irish, Europe, UK, US"/>
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;500&family=Lato:ital@0;1&family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
 <title>Tuatha Transport Services</title>
 </head>
 <body>
@@ -24,11 +27,68 @@
     </header>
 
     <section id="pricing" class="pricing-form-container">
-        <form method="GET" action="thank-you.html" class="pricing-form">
-            <h2>Get A Quote</h2>
-            <p>Include broad details of the services requires and we will respond within an hour* to finalize the details.</p>
+        <form method="GET" action="https://formdump.codeinstitute.net/" class="pricing-form">
+            <h1 class="form-heading">Get a Quote</h1>
+            <p>Include broad details of the services requires and we will respond within an hour* to finalize the details.</p><br>
             <label for="name">Your Name</label>
-            <input id="name" class="text-input" name="name" type="text" required>
+            <input type="text" id="name" class="text-input" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" class="text-input" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" class="text-input" name="phone"><br>
+            
+            <!--Checkboxes for required services-->
+            <h2 class="pricing-heading">Required Services</h2>
+            <label for="removal">Removal</label>
+            <input type="checkbox" id="removal" name="removal" value="yes">
+            
+            <label for="removal">Installation</label>
+            <input type="checkbox" id="installation" name="installation" value="yes"> 
+            
+            <label for="removal">Transport</label>
+            <input type="checkbox" id="transport" name="transport" value="yes"> 
+
+            <label for="removal">Storage</label>
+            <input type="checkbox" id="storage" name="storage" value="yes"> 
+
+            <label for="removal">Crating</label>
+            <input type="checkbox" id="crating" name="crating" value="yes"> 
+
+            <label for="removal">US Shipping</label>
+            <input type="checkbox" id="shipping" name="shipping" value="yes"><br><br>
+
+            <!--Radio buttons for Number of Pieces-->
+            <h2 class="pricing-heading">Number of Pieces</h2>
+            <label for="under-ten">Under 10</label>
+            <input type="radio" id="under-ten" name="number-of-pieces" value="under-ten" required>
+
+            <label for="ten-to-twenty">10-20</label>
+            <input type="radio" id="ten-to-twenty" name="number-of-pieces" value="ten-to-twenty" required>
+
+            <label for="over-twenty">20 +</label>
+            <input type="radio" id="over-twenty" name="number-of-pieces" value="over-twenty" required><br><br>
+
+            <!--Radio buttons for turnover-->
+            <h2 class="pricing-heading">Total Turnover</h2>
+            <label for="one-to-three-days">1-3 days</label>
+            <input type="radio" id="one-to-three-days" name="turnover" value="one-to-three-days" required>
+
+            <label for="three-to-seven-days">3-7 days</label>
+            <input type="radio" id="three-to-seven-days" name="turnover" value="three-to-seven-days" required>
+
+            <label for="one-to-two-weeks">1-2 weeks</label>
+            <input type="radio" id="one-to-two-weeks" name="turnover" value="one-to-two-weeks" required>
+
+            <label for="over-two-weeks">2 + weeks</label>
+            <input type="radio" id="over-two-weeks" name="turnover" value="over-two-weeks" required><br><br>
+            
+            <!--Textarea for brief descrition of the details-->
+            <h2 class="pricing-heading">Description of work</label>
+            <textarea id="description" cols="3" rows="3" placeholder="Please briefly describe the extent of the services required" required></textarea>
+
+            <button type="submit">Send</button>
         </form>
     </section>
 

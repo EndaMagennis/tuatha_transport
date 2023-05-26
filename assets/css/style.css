@@ -10,7 +10,7 @@ html {
 
 body {
     background-color: #B5B8A3;
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 100%;
 }
 
@@ -123,7 +123,6 @@ a:hover {
     width: 33%;
     text-align: center;
     padding: 1%;
-    border: 1px solid red;
 }
 
 #main-content section img{
@@ -253,3 +252,51 @@ footer div {
 #copyright {
     align-self: flex-end;
 }
+
+/*pricing form styling*/
+.pricing-form-container{
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: #AABA9E
+                url("https://images.pexels.com/photos/4792495/pexels-photo-4792495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+                center center/100% auto
+                no-repeat
+                fixed;
+}
+
+.form-heading{
+    text-decoration: underline;
+}
+
+.pricing-form-container h2{
+    text-decoration: underline;
+}
+
+form{
+    background-color: rgba(170, 186, 158, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    width: 66%;
+    margin: 20px 50px 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.required-services{
+    display: block;
+}
+
+textarea {
+    width: 66%;
+}
+
+.text-input{
+    width: 33%;
+}
+
+button{
+    justify-self: center;
+    width: 100px;
