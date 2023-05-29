@@ -86,9 +86,11 @@ nav {
     border-radius: 20px;
     height: auto;
     background-color: rgba(170, 186, 158, 0.7);
+    padding: 20px;
 }
 
 .button {
+    color: #fafafa;
     font-size: 1.2rem;
     padding: 0.2%;
     margin: 2%;
@@ -98,14 +100,6 @@ nav {
 
 .button:hover {
     background-color: #fafafa;
-    color: #387D7A;
-}
-
-.button a {
-    color: #fafafa;
-}
-
-.button a:hover {
     text-decoration: none;
     color: #387D7A;
 }
@@ -127,6 +121,10 @@ nav {
 
 #main-content section img{
     width:100%;
+}
+
+.no-heading {
+    display: none;
 }
 
 .text-chunk {
@@ -242,7 +240,7 @@ footer div {
 
 #social-links i {
     font-size: 200%;
-    color: #FCB97D;
+    color: #b57e4c;
 }
 
 #social-links i:hover {
@@ -265,6 +263,8 @@ footer div {
                 fixed;
 }
 
+
+
 .form-heading{
     text-decoration: underline;
 }
@@ -285,6 +285,10 @@ form{
     border-radius: 20px;
 }
 
+.inline{
+    display: inline;
+}
+
 .required-services{
     display: block;
 }
@@ -294,7 +298,7 @@ textarea {
 }
 
 .text-input{
-    width: 33%;
+    width: 200px;
 }
 
 button{

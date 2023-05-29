@@ -26,7 +26,7 @@
         </nav>
     </header>
 
-    <section id="pricing" class="pricing-form-container">
+    <main id="pricing" class="pricing-form-container">
         <form method="GET" action="https://formdump.codeinstitute.net/" class="pricing-form">
             <h1 class="form-heading">Get a Quote</h1>
             <p>Include broad details of the services requires and we will respond within an hour* to finalize the details.</p><br>
@@ -41,56 +41,80 @@
             
             <!--Checkboxes for required services-->
             <h2 class="pricing-heading">Required Services</h2>
-            <label for="removal">Removal</label>
-            <input type="checkbox" id="removal" name="removal" value="yes">
-            
-            <label for="removal">Installation</label>
-            <input type="checkbox" id="installation" name="installation" value="yes"> 
-            
-            <label for="removal">Transport</label>
-            <input type="checkbox" id="transport" name="transport" value="yes"> 
-
-            <label for="removal">Storage</label>
-            <input type="checkbox" id="storage" name="storage" value="yes"> 
-
-            <label for="removal">Crating</label>
-            <input type="checkbox" id="crating" name="crating" value="yes"> 
-
-            <label for="removal">US Shipping</label>
-            <input type="checkbox" id="shipping" name="shipping" value="yes"><br><br>
-
+            <div class="inline">
+                <label for="removal">Removal</label>
+                <input type="checkbox" id="removal" name="removal" value="yes">
+            </div>
+            <div class="inline">
+                <label for="installation">Installation</label>
+                <input type="checkbox" id="installation" name="installation" value="yes"> 
+            </div>
+            <div class="inline">
+                <label for="transport">Transport</label>
+                <input type="checkbox" id="transport" name="transport" value="yes"> 
+            </div>
+            <div class="inline">
+                <label for="storage">Storage</label>
+                <input type="checkbox" id="storage" name="storage" value="yes"> 
+            </div>
+            <div class="inline">
+                <label for="crating">Crating</label>
+                <input type="checkbox" id="crating" name="crating" value="yes"> 
+            </div>
+            <div class="inline">
+                <label for="shipping">US Shipping</label>
+                <input type="checkbox" id="shipping" name="shipping" value="yes"><br><br>
+            </div>
             <!--Radio buttons for Number of Pieces-->
             <h2 class="pricing-heading">Number of Pieces</h2>
-            <label for="under-ten">Under 10</label>
-            <input type="radio" id="under-ten" name="number-of-pieces" value="under-ten" required>
 
-            <label for="ten-to-twenty">10-20</label>
-            <input type="radio" id="ten-to-twenty" name="number-of-pieces" value="ten-to-twenty" required>
-
-            <label for="over-twenty">20 +</label>
-            <input type="radio" id="over-twenty" name="number-of-pieces" value="over-twenty" required><br><br>
-
+            <div class="inline">
+                <label for="under-ten">Under 10</label>
+                <input type="radio" id="under-ten" name="number-of-pieces" value="under-ten" required>
+            </div>
+            
+            <div class="inline">
+                <label for="ten-to-twenty">10-20</label>
+                <input type="radio" id="ten-to-twenty" name="number-of-pieces" value="ten-to-twenty" required>
+            </div>
+            
+            <div class="inline">
+                <label for="over-twenty">20 +</label>
+                <input type="radio" id="over-twenty" name="number-of-pieces" value="over-twenty" required><br><br>
+            </div>
+            
             <!--Radio buttons for turnover-->
             <h2 class="pricing-heading">Total Turnover</h2>
-            <label for="one-to-three-days">1-3 days</label>
-            <input type="radio" id="one-to-three-days" name="turnover" value="one-to-three-days" required>
+            <div class="inline">
+                <label for="one-to-three-days">1-3 days</label>
+                <input type="radio" id="one-to-three-days" name="turnover" value="one-to-three-days" required>
+            </div>
 
-            <label for="three-to-seven-days">3-7 days</label>
-            <input type="radio" id="three-to-seven-days" name="turnover" value="three-to-seven-days" required>
+            <div class="inline">
+                <label for="three-to-seven-days">3-7 days</label>
+                <input type="radio" id="three-to-seven-days" name="turnover" value="three-to-seven-days" required>
+            </div>
 
-            <label for="one-to-two-weeks">1-2 weeks</label>
-            <input type="radio" id="one-to-two-weeks" name="turnover" value="one-to-two-weeks" required>
+            <div class="inline">
+                <label for="one-to-two-weeks">1-2 weeks</label>
+                <input type="radio" id="one-to-two-weeks" name="turnover" value="one-to-two-weeks" required>
+            </div>
 
-            <label for="over-two-weeks">2 + weeks</label>
-            <input type="radio" id="over-two-weeks" name="turnover" value="over-two-weeks" required><br><br>
+            <div class="inline">
+                <label for="over-two-weeks">2 + weeks</label>
+                <input type="radio" id="over-two-weeks" name="turnover" value="over-two-weeks" required><br><br>
+            </div>
+
             
             <!--Textarea for brief descrition of the details-->
-            <h2 class="pricing-heading">Description of work</label>
+            <h2 class="pricing-heading">Description of work</h2>
             <textarea id="description" cols="3" rows="3" placeholder="Please briefly describe the extent of the services required" required></textarea>
-
+            <br>
             <button type="submit">Send</button>
+            <br>
+            <p> *office hours are between 8am-8pm Mon-Sun. For time-sensitive queries outside of these hours call 091 1234 567</p>
         </form>
-    </section>
+    </main>
 
     <footer>
         <div id="social-links">
