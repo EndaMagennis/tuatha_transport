@@ -151,7 +151,7 @@ nav {
 /*body styling meet-the-team*/
 #mission-statement-team {
     background: #AABA9E
-                url("/assets/images/teamwork.jpg")
+                url("assets/images/teamwork.jpg")
                 top center/100% auto
                 no-repeat
                 fixed;
@@ -184,7 +184,7 @@ figcaption{
 /*body sytling services.html*/
 #mission-statement-services {
     background: #AABA9E
-                url("/assets/images/tools.jpg")
+                url("assets/images/tools.jpg")
                 top center/100% auto
                 no-repeat
                 fixed;
@@ -246,10 +246,9 @@ figcaption{
     margin: 0;
     padding: 20px;
     background: #AABA9E
-                url("/assets/images/art-handlers.jpeg")
-                top center/100% auto
-                no-repeat
-                fixed;
+                url("assets/images/art-handlers.jpeg")
+                top center/100% 
+                no-repeat;
 }
 
 .form-heading{
@@ -281,7 +280,7 @@ form{
 }
 
 textarea {
-    width: 66%;
+    width: 500px;
 }
 
 .text-input{
@@ -362,6 +361,10 @@ footer div {
     #main-content section{
         width: 100%;
     }
+
+    textarea {
+    width: 300px;
+}
 }
 
 @media screen and (max-width: 700px) {
@@ -369,8 +372,66 @@ footer div {
         height: 300px;
     }
 
+    .mission-statement h1{
+        font-size: 200%;
+    }
+
+    .mission-statement h2{
+        font-size: 150%;
+    }
+
     .pairs{
         width: 50%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mission-statement{
+        height: 200px;
+    }
+
+    .mission-statement h1{
+        font-size: 120%;
+    }
+
+    .mission-statement h2{
+        font-size: 100%;
+        margin: 10px;
+    }
+
+    .button{
+        font-size: small;
+    }
+
+    .container{
+        height: 100px;
+        width: 80%;
+        height: auto;
+    }
+
+    .row{
+        height: auto;
+        flex-flow: column;
+        border: 2px solid #fafafa
+    }
+
+    .row img {
+        width: 100%;
+    }
+
+    #row-reverse{
+        flex-flow: column;
+    }
+
+    .pricing-form-container{
+        width: 100%;
+        background-attachment: cover;
+    }
+
+    .pricing-form{
+        width: 100%;
+        justify-self: flex-start;
+        margin: 0;
     }
 }
