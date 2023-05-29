@@ -151,7 +151,7 @@ nav {
 /*body styling meet-the-team*/
 #mission-statement-team {
     background: #AABA9E
-                url("assets/images/teamwork.jpg")
+                url("../images/teamwork.jpg")
                 top center/100% auto
                 no-repeat
                 fixed;
@@ -184,7 +184,7 @@ figcaption{
 /*body sytling services.html*/
 #mission-statement-services {
     background: #AABA9E
-                url("assets/images/tools.jpg")
+                url("../images/tools.jpg")
                 top center/100% auto
                 no-repeat
                 fixed;
@@ -213,7 +213,7 @@ figcaption{
     object-fit: cover;
     overflow: hidden;
     padding: 10px;
-    margin: 10px;
+    border: 2px solid #fafafa;
 }
 
 .row img{
@@ -246,7 +246,7 @@ figcaption{
     margin: 0;
     padding: 20px;
     background: #AABA9E
-                url("assets/images/art-handlers.jpeg")
+                url("../images/art-handlers.jpeg")
                 top center/100% 
                 no-repeat;
 }
@@ -412,6 +412,8 @@ footer div {
 
     .row{
         height: auto;
+        margin: 0;
+        padding: 0;
         flex-flow: column;
         border: 2px solid #fafafa
     }
