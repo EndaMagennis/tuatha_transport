@@ -65,7 +65,7 @@ nav {
 
 #mission-statement-index {
     background: #AABA9E
-                url("https://images.squarespace-cdn.com/content/v1/5d239a8e1176930001df93fe/1627055485060-EV0W12G9SO42SI71EM5Y/art-handler-unconventional-assistance-111.jpeg")
+                url("assets/images/art-handlers.jpeg")
                 center center/100% auto
                 no-repeat
                 fixed;
@@ -150,7 +150,7 @@ nav {
 /*body styling meet-the-team*/
 #mission-statement-team {
     background: #AABA9E
-                url("https://images.pexels.com/photos/3280130/pexels-photo-3280130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+                url("assets/images/teamwork.jpg")
                 center center/100% auto
                 no-repeat
                 fixed;
@@ -179,7 +179,7 @@ nav {
 /*body sytling services.html*/
 #mission-statement-services {
     background: #AABA9E
-                url("https://images.pexels.com/photos/4792495/pexels-photo-4792495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+                url("assets/images/tools.jpg")
                 center center/100% auto
                 no-repeat
                 fixed;
@@ -219,38 +219,6 @@ nav {
     border: 1px solid red;
 }
 
-/*footer styling*/
-footer {
-    display: flex;
-    background-color: #C6B89E;
-    flex-flow: row wrap;
-    justify-content: center;
-    height: 200px;
-    border-top: 2px solid black;
-}
-
-footer div {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1%;
-    margin: 1%;
-}
-
-#social-links i {
-    font-size: 200%;
-    color: #b57e4c;
-}
-
-#social-links i:hover {
-    color: #FAFAFA;
-}
-
-#copyright {
-    align-self: flex-end;
-}
-
 /*pricing form styling*/
 .pricing-form-container{
     width: 100%;
@@ -262,8 +230,6 @@ footer div {
                 no-repeat
                 fixed;
 }
-
-
 
 .form-heading{
     text-decoration: underline;
@@ -304,3 +270,38 @@ textarea {
 button{
     justify-self: center;
     width: 100px;
+}
+
+/*footer styling*/
+footer {
+    display: flex;
+    background-color: #C6B89E;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 200px;
+    border-top: 2px solid black;
+}
+
+footer div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+}
+
+#social-links i {
+    font-size: 200%;
+    color: #b57e4c;
+}
+
+#social-links i:hover {
+    color: #FAFAFA;
+}
+
+#copyright {
+    align-self: flex-end;
+}
+
+/*Media queries for increased responsiveness*/
