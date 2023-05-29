@@ -184,39 +184,53 @@ nav {
                 no-repeat
                 fixed;
 }
-
 .services-grid-container{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 2%;
+    grid-template-rows: auto auto auto auto;
+    gap: 15px;
+    align-items: center;
     text-align: center;
 }
-.services-grid-container img{
+
+.services-grid {
+    gap: 15px;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+
+.row{
+    display:flex;
     width: 100%;
     height: 300px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
     object-fit: cover;
+    overflow: hidden;
 }
 
-#services h3{
+.row img{
+    width: 50%;
+    height: auto;
+    margin: 15px;
+
+}
+
+.row p{
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+
+#row-reverse{
+    flex-direction: row-reverse;
+}
+
+#services h2{
     justify-self: flex-end;
     text-decoration: underline;
-    font-size: 1.2rem;
-}
-
-.services-grid-1{
-    border: 1px solid red;
-}
-
-.services-grid-2{
-    border: 1px solid red;
-}
-
-.services-grid-3{
-    border: 1px solid red;
-}
-
-.services-grid-4{
-    border: 1px solid red;
+    font-size: 1.8rem;
+    color: #FAFAFA
 }
 
 /*pricing form styling*/
