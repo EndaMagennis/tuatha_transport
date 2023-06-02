@@ -425,8 +425,9 @@ footer div {
         height: 100px;
         width: 80%;
         height: auto;
+        padding: 15px;
     }
-
+    
     .row{
         height: auto;
         margin: 0;
@@ -457,11 +458,15 @@ footer div {
 
 @media screen and (max-width: 500px){
         .container{
-            background-color: rgba(170, 186, 158, 0.8)
+            background-color: rgba(170, 186, 158, 0.8);
+            align-self: flex-start;
         }
-
         .pricing-form{
             background-color: rgba(170, 186, 158, 0.8)
 
+        }
+
+        #mission-statement-services h2{
+            font-size: 1.3rem;
         }
     }
