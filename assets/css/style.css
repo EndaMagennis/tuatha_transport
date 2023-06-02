@@ -204,15 +204,9 @@ figcaption{
 .services-grid-container{
     display: grid;
     grid-template-rows: auto auto auto auto;
-    gap: 15px;
+    gap: 0;
     align-items: center;
     text-align: center;
-}
-
-.services-grid {
-    gap: 15px;
-    height: fit-content;
-    margin-bottom: 15px;
 }
 
 .row{
@@ -224,7 +218,6 @@ figcaption{
     align-items: center;
     object-fit: cover;
     overflow: hidden;
-    padding: 10px;
     border: 2px solid #fafafa;
 }
 
@@ -249,6 +242,7 @@ figcaption{
     justify-self: flex-end;
     text-decoration: underline;
     font-size: 1.8rem;
+    padding: 1.5rem;
     color: #FAFAFA
 }
 
@@ -294,6 +288,8 @@ form{
 
 textarea {
     width: 500px;
+    min-height: 30px;
+    resize: vertical;
 }
 
 .text-input{
