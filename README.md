@@ -248,6 +248,7 @@ Responsivity was maintained across all three web browsers.
     #### Pricing Page
     ![Valid Pricing](documentation/valid-pricing.png)
     ### Thank You Page
+    ![Valid Thank You](documentation/valid-thank-you.png)
         
 + ### [CSS Validator](https://jigsaw.w3.org/css-validator/)
     
@@ -280,11 +281,9 @@ Responsivity was maintained across all three web browsers.
 ---
 
 ## Future improvements
-- add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
-- add custom 404 page;
-- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
-- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
-- create a genuine estimate calculator which will use the inputs of the form to generate an actual quote and send the customer and email
+- More frequent commits for more focused chunks of work as I often changed multiple, disparate aspects of the project with an insufficient commit comment
+- More stringent adherence to commit practices
+- Create a genuine estimate calculator which will use the inputs of the form to generate an actual quote and send the customer an email
 
 ---
 ## Credits
