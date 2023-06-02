@@ -3,6 +3,22 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: 1rem;
+}
+/* Global font sizes */
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 /* creates a responsive scaling of the font-size based on screen size*/
@@ -15,6 +31,7 @@ body {
     background-color: #B5B8A3;
     font-family: 'Jost', 'Lato', sans-serif;
     width: 100%;
+    color: #fafafa;
 }
 
 /* header styling */
@@ -67,12 +84,7 @@ nav {
     text-align: center;
 }
 
-.container h1 {
-    font-size: 300%;
-}
-
 .container h2 {
-    font-size: 200%;
     margin: 25px;
 }
 
@@ -110,8 +122,6 @@ nav {
                 fixed;
 }
 
-
-
 /*body styling index*/
 #main-content {
     width: 100%;
@@ -147,8 +157,9 @@ nav {
 }
 
 .gene-quote {
-    font-family: 'Lato';
+    font-family: 'Jost';
     font-style: italic;
+    font-weight: bold;
     color: black;
 }
 
@@ -229,7 +240,6 @@ figcaption{
 }
 
 .row p{
-    font-size: 1.2rem;
     margin: 15px;
 }
 
@@ -241,7 +251,6 @@ figcaption{
 #services h2{
     justify-self: flex-end;
     text-decoration: underline;
-    font-size: 1.8rem;
     padding: 1.5rem;
     color: #FAFAFA
 }
@@ -288,7 +297,7 @@ form{
 
 textarea {
     width: 500px;
-    min-height: 30px;
+    min-height: 50px;
     resize: vertical;
 }
 
@@ -403,11 +412,9 @@ footer div {
     }
 
     .mission-statement h1{
-        font-size: 120%;
     }
 
     .mission-statement h2{
-        font-size: 100%;
         margin: 10px;
     }
 
@@ -448,3 +455,9 @@ footer div {
         margin: 0;
     }
 }
+
+@media screen and (max-width: 500px){
+        .container{
+            background-color: rgba(170, 186, 158, 0.8)
+        }
+    }
