@@ -10,7 +10,7 @@ html {
 
 body {
     background-color: #B5B8A3;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Jost', 'Lato', sans-serif;
     width: 100%;
 }
 
@@ -110,18 +110,20 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-items: flex-start;
+    justify-content: space-between;
     font-size: 1.2rem;
 }
 
 #main-content section {
     width: 33%;
     text-align: center;
-    padding: 1%;
+    padding: 25px;
 }
 
-#main-content section img{
+#main-content img{
     width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .no-heading {
@@ -138,7 +140,7 @@ nav {
 }
 
 .gene-quote {
-    text-transform: capitalize;
+    font-family: 'Lato';
     font-style: italic;
     color: black;
 }
@@ -331,12 +333,12 @@ footer div {
     }
 
     #main-content{
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
     }
 
     #main-content img{
-        height: 450px;
+        height: 400px;
         width: 100%;
         object-fit: cover;
     }
@@ -348,7 +350,6 @@ footer div {
     }
     
     #main-content{
-        height: auto;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -360,10 +361,10 @@ footer div {
 
     textarea {
     width: 300px;
-}
+    }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .mission-statement{
         height: 300px;
     }
@@ -375,6 +376,13 @@ footer div {
     .mission-statement h2{
         font-size: 150%;
     }
+
+     #main-content img{
+         width: 100%;
+         height: auto;
+         object-fit: cover;
+         background-position: top center;
+     }
 
     .pairs{
         width: 50%;
