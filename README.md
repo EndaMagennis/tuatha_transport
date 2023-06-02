@@ -29,10 +29,10 @@ the logo bares the Galway colours of maroon and white. The name Tuatha, which tr
     - Contains a clickable logo 
 
     - Contains navigation links for Home, About Us, Services, and Pricing
-    ![Navbar image]
+    ![Navbar](documentation/navbar.png)
     
     - Links have a hover effect
-    ![Image of highlighted link]
+    ![Highlighted Link](documentation/hover-effect.png)
     
 --- 
 + ### Home Page
@@ -48,7 +48,7 @@ the logo bares the Galway colours of maroon and white. The name Tuatha, which tr
     - Blurb discussing how the company has grown
 
 The goal is to incorporate the personal journey of the founder in order to highlight the personal touch each job is given.
-    - ![Homepage image]
+    - ![Homepage](documentation/homepage-desktop.png)
     
 --- 
 + ### About Us Page
@@ -60,7 +60,7 @@ The goal is to incorporate the personal journey of the founder in order to highl
     - Images of each team member and their positions in the company
 
 The goal is to inject personality and a sense of connection to the company
-    - ![About us image]
+    - ![About Us](documentation/about-us-desktop.png)
     
 ---
 + ### Services Page
@@ -72,7 +72,7 @@ The goal is to inject personality and a sense of connection to the company
     - Sections of headings, descriptions of services, cost considerations, and accompanying images
 
 The goal is to give a clear and concise breakdown of the services provided and how costs are calculated
-    - ![services image]
+    - ![Sevices](documentation/services-desktop.png)
     
 ---
 + ### Pricing Page
@@ -90,11 +90,13 @@ The goal is to give a clear and concise breakdown of the services provided and h
         * Includes submit input   
 
 The goal is to alow the user to make tailored requests for jobs and recieve email feedback in a timely manner
+    - ![Pricing](documentation/pricing-desktop.png)
 
 --- 
 + ### Footer
 
     - Each page has a footer which contains social media links which open in a new tab
+    - ![Footer](documentation/footer.png)
 
 --- 
 + ### Thank you page
@@ -130,36 +132,105 @@ The goal is to alow the user to make tailored requests for jobs and recieve emai
 
 ### Typogrphy
 
-![Jost font]
+![Jost Font](documentation/font-jost.png)
 - Jost font from Goolge was the main font used throughout the site, it is a sans serif font with high readability with a touch of styling
 
-![lato font]
-- Lato font from Goolge was a backup font, if Jost could not be rendered, it is a similar sans serif font but with more basic styling
 
-![merriweather]
-- Merriweather is another Google API font, it is a high readablity serif font and was used to highlight quotes and job positions
+![Lato Font](documentation/base-font-lato.png)
+- Lato was the original base font, but after testing, it became the fallback
+
+![Merriweather](documentation/font-merriweather.png)
+- Merriweather is another Google API font, it is a high readablity serif font and was used to highlight workers names and positions
 
 ---
 ### Wireframes
 
 #### Mobile devices
 
-- [Home Page. Mobile Screen](documentation/wireframes/index_wirframe_350px.png)
-- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wirframe_350px.png)
-- [Services Page. Mobile Screen](documentation/wireframes/services_wirframe_350px.png)
-- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wirframe_350px.png)
+- [Home Page. Mobile Screen](documentation/wireframes/index_wireframe_350px.png)
+- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wireframe_350px.png)
+- [Services Page. Mobile Screen](documentation/wireframes/services_wireframe_350px.png)
+- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wireframe_350px.png)
 
 
 #### Tablets
 
-- [Home Page. Mobile Screen](documentation/wireframes/index_wirframe_900px.png)
-- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wirframe_900px.png)
-- [Services Page. Mobile Screen](documentation/wireframes/services_wirframe_900px.png)
-- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wirframe_900px.png)
+- [Home Page. Mobile Screen](documentation/wireframes/index_wireframe_900px.png)
+- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wireframe_900px.png)
+- [Services Page. Mobile Screen](documentation/wireframes/services_wireframe_900px.png)
+- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wireframe_900px.png)
 
 #### Desktop
 
-- [Home Page. Mobile Screen](documentation/wireframes/index_wirframe.png)
-- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wirframe.png)
-- [Services Page. Mobile Screen](documentation/wireframes/services_wirframe.png)
-- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wirframe.png)
+- [Home Page. Mobile Screen](documentation/wireframes/index_wireframe.png)
+- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wireframe.png)
+- [Services Page. Mobile Screen](documentation/wireframes/services_wireframe.png)
+- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wireframe.png)
+
+--- 
+## Testing
+
+
+---
+### Bugs
+
+---
+## Validator testing
++ ### HTML
+  #### Home Page
+       
+  #### Gallery Page
+    
+  #### Contact Page
+   
+  #### Response Page
+        
++ ### CSS
+  
++ ### Accessibility and performance 
+
+---
+## Deployment
+- This site was deployed using Github Pages
+- A repository was created on Github from the [Code Institute Full Template](https://github.com/Code-Institute-Org/ci-full-template)
+- The repository url was copied and input as a workspace in [Codeanywhere](https://app.codeanywhere.com/) 
+- The HTML and CSS were edited in the workspace
+- Using the built-in terminal, changes were git added, git committed, and git pushed to the main branch of the Github repository
+- From the main branch of the [Github Repository](https://endamagennis.github.io/tuatha_transport/index.html), settings was selected
+- From there I navigated to the Pages tab
+- Under Build and Deployment, I navigated to Branch, selected main, selected root, and clicked save
+- Github then built and deployed the site in a matter of minutes
+
+
+---
+
+## Future improvements
+- add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
+- add custom 404 page;
+- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
+- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
+- create a genuine estimate calculator which will use the inputs of the form to generate an actual quote and send the customer and email
+
+---
+## Credits
+
++ #### Content
+
+    
+
++ #### Media
+
++ #### Tools
+
+
+---
+
+## Acknowledgments
+
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova), my mentor who gave me excellent advice, tips, and resources throughout this project and has pushed me to improve.
+- [Claire Heneghan](https://github.com/HeneghanC), my partner who gave feedback and advice on the website.
+- [Alan Bushell](https://github.com/Alan-Bushell), my cohort co-ordinator who gave live feedback during a stand-up and has been helpful throughout the course.
+- [Code Institute](https://codeinstitute.net/ie/), who have given me the tools and knowledge to persue my goal.
+
+---
+
