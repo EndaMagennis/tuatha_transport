@@ -1,3 +1,4 @@
+![Am I Responsive](documentation/am-i-responsive.png)
 # Tuatha Transport Services
 
 Tuatha Transport Services is a fictional art transportation company. The website allows the user to browse the available services and request a quote for selected services.
@@ -7,7 +8,7 @@ The site can be accessed [here](https://endamagennis.github.io/tuatha_transport/
 ---
 ## Background to Tuatha
 
-The inspiration to create a website based on this industry comes from personal experience. My father founded and owned a leadiing art transportation company before retirement,
+The inspiration to create a website based on this industry comes from personal experience. My father founded and owned a leading art transportation company before retirement,
 giving me a unique insight into the inner workings of such a company. Tuatha is a slightly more corporate, and expansive version of the former family business. As a Galway-based company,
 the logo bares the Galway colours of maroon and white. The name Tuatha, which translates to 'tribe', is also a refernce to Galway being the 'City of Tribes'.
 
@@ -29,9 +30,11 @@ the logo bares the Galway colours of maroon and white. The name Tuatha, which tr
     - Contains a clickable logo 
 
     - Contains navigation links for Home, About Us, Services, and Pricing
+    
     ![Navbar](documentation/navbar.png)
     
     - Links have a hover effect
+    
     ![Highlighted Link](documentation/hover-effect.png)
     
 --- 
@@ -48,7 +51,7 @@ the logo bares the Galway colours of maroon and white. The name Tuatha, which tr
     - Blurb discussing how the company has grown
 
 The goal is to incorporate the personal journey of the founder in order to highlight the personal touch each job is given.
-    - ![Homepage](documentation/homepage-desktop.png)
+![Homepage](documentation/homepage-desktop.png)
     
 --- 
 + ### About Us Page
@@ -60,7 +63,7 @@ The goal is to incorporate the personal journey of the founder in order to highl
     - Images of each team member and their positions in the company
 
 The goal is to inject personality and a sense of connection to the company
-    - ![About Us](documentation/about-us-desktop.png)
+![About Us](documentation/about-us-desktop.png)
     
 ---
 + ### Services Page
@@ -72,7 +75,7 @@ The goal is to inject personality and a sense of connection to the company
     - Sections of headings, descriptions of services, cost considerations, and accompanying images
 
 The goal is to give a clear and concise breakdown of the services provided and how costs are calculated
-    - ![Sevices](documentation/services-desktop.png)
+![Sevices](documentation/services-desktop.png)
     
 ---
 + ### Pricing Page
@@ -90,13 +93,13 @@ The goal is to give a clear and concise breakdown of the services provided and h
         * Includes submit input   
 
 The goal is to alow the user to make tailored requests for jobs and recieve email feedback in a timely manner
-    - ![Pricing](documentation/pricing-desktop.png)
+![Pricing](documentation/pricing-desktop.png)
 
 --- 
 + ### Footer
 
     - Each page has a footer which contains social media links which open in a new tab
-    - ![Footer](documentation/footer.png)
+    ![Footer](documentation/footer.png)
 
 --- 
 + ### Thank you page
@@ -169,11 +172,69 @@ The goal is to alow the user to make tailored requests for jobs and recieve emai
 
 --- 
 ## Testing
++ ### Responsive Design
+This site was tested using Chrome, Edge and Firefox Developer Tools.
+Responsivity was maintained across all three web browsers.
 
+### Chrome
+![Chrome Home GIF]()
+
+### Edge
+![Edge Home GIF]()
+
+### Firfox
+![Firefox Home GIF]()
+
++ ### Manual Testing
+
+| Feature | Action | Expectation | Pass | Comment |
+| --- | --- | --- | --- | --- |
+| Navbar | | | | |
+| Logo | Click | Direct user to homepage | Yes | |
+| Home | Click on 'Home' link | Direct user to homepage | Yes | |
+| About Us | Click on 'About Us' link | Direct user to about us page | Yes | |
+| Services | Click on 'Services' link | Direct user to services page | Yes | |
+| Pricing | Click on 'Pricing' link | Direct user to pricing page | Yes | |
+| Footer | | | | |
+| Facebook Icon in Footer | Click on Facebook icon | Opens a new tab to Facebook | Yes | |
+| Twitter Icon in Footer | Click on Twitter icon | Opens a new tab to Twitter | Yes | |
+| Instagram Icon in Footer | Click on Instagram icon | Opens a new tab to Instagram | Yes | |
+| Youtube Icon in Footer | Click on Youtube icon | Opens a new tab to Youtube | Yes | |
+| Home Page | | | | |
+| Get a Quote | Click on 'Get a Quote' button | Direct user to pricing page | Yes | |
+| About Us Page | | | | |
+| Get a Quote | Click on 'Get a Quote' button | Direct user to pricing page | Yes | |
+| Services Page | | | | |
+| Get a Quote | Click on 'Get a Quote' button | Direct user to pricing page | Yes | |
+| Pricing Page | | | | |
+| Name Input | User inputs string of charachters | Characters are cprrectly displayed | Yes | |
+| | User submits leaving this field blank | User is prompted to enter a string value | Yes | |
+| Email Input | User inputs string of characters and '@' symbol | Characters and '@' are correctly displayed | Yes | |
+| | User submits leaving this field blank | User is prompted to enter a string value | Yes | |
+| | User submits string of characters but no '@' symbol | User is prompted to add correct email address | Yes | |
+| Phone Input | User inputs string of numbers | Numbers are correctly displayed | Yes | |
+| | User attemps to input characer string | User is prevented from doing so | Yes | |
+| | User submits leaving this field blank | Form submits provided other required fields are input correctly | Yes | |
+| Required Services Checkbox Input | User clicks one or multiple service checkboxes | Corresponding box is checked | Yes | |
+| Number of Pieces Radio Input | User clicks on relevant radio input | Corresponding radio input is selected | Yes | |
+| | User clicks a different radio input under this heading | Former selection is deselected and new input is selected | Yes | |
+| Turn Around Time Radio Input | User clicks on relevant radio input | Corresponding radio input is selected | Yes | |
+| | User clicks a different radio input under this heading | Former selection is deselected and new input is selected | Yes | |
+| Textarea Input | User inputs strings of characters and numbers as required | Inputs are displayed correctly | Yes | |
+| | User attempts to submit leaving this field blank | User is prompted to input this field | Yes | |
+| | User attempts to resize the textarea with click and drag | Resize is constrained to vertical only and there is a minimum height | Yes | |
+| Submit Input | User clicks the submit, having filled our required fields correctly | User is redirected to thank you page | | | 
+| | | User clicks the submit, not having filled our required fields correctly | User is prompted to fill out corresponding field | Yes | |
 
 ---
-### Bugs
-
++ ### Bugs
+- Page didn't fully fit browser window. Solution: set global margin to 0.
+- Images consistently overlapped with other elements and broke their contraints. Solution: used [object-fit](https://www.w3schools.com/css/css3_object-fit.asp) property.
+- 'Get a Quote' button highlighting glitch. Solution: make an <a> element and style it as a button, rather than using a button element containing and <a> element.
+- Textarea resize broke responsive design. Solution: set min-height and constrain resize property to vertical only.
+- Image scale for services.html was completely broken in Firefox. Solution: target the <p> element in the row class and set its width to 50%.
+![Firefox Bug]()
+    
 ---
 ## Validator testing
 + ### HTML
