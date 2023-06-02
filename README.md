@@ -123,4 +123,43 @@ The goal is to alow the user to make tailored requests for jobs and recieve emai
 ## Design
 
 ### Colour Scheme
-![Colour Pallette](documentation/color-schemes/warm-tones)
+![Colour Pallette](documentation/color-schemes/warm-tones.png)
+
+- Muted color pallette with soft pastels to create a visual sense of calm and composure, replicating an art gallery
+- Allows the imagery and text to stand out
+
+### Typogrphy
+
+![Jost font]
+- Jost font from Goolge was the main font used throughout the site, it is a sans serif font with high readability with a touch of styling
+
+![lato font]
+- Lato font from Goolge was a backup font, if Jost could not be rendered, it is a similar sans serif font but with more basic styling
+
+![merriweather]
+- Merriweather is another Google API font, it is a high readablity serif font and was used to highlight quotes and job positions
+
+---
+### Wireframes
+
+#### Mobile devices
+
+- [Home Page. Mobile Screen](documentation/wireframes/index_wirframe_350px.png)
+- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wirframe_350px.png)
+- [Services Page. Mobile Screen](documentation/wireframes/services_wirframe_350px.png)
+- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wirframe_350px.png)
+
+
+#### Tablets
+
+- [Home Page. Mobile Screen](documentation/wireframes/index_wirframe_900px.png)
+- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wirframe_900px.png)
+- [Services Page. Mobile Screen](documentation/wireframes/services_wirframe_900px.png)
+- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wirframe_900px.png)
+
+#### Desktop
+
+- [Home Page. Mobile Screen](documentation/wireframes/index_wirframe.png)
+- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wirframe.png)
+- [Services Page. Mobile Screen](documentation/wireframes/services_wirframe.png)
+- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wirframe.png)
