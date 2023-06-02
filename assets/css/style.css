@@ -31,7 +31,6 @@ body {
     background-color: #B5B8A3;
     font-family: 'Jost', 'Lato', sans-serif;
     width: 100%;
-    color: #fafafa;
 }
 
 /* header styling */
@@ -459,5 +458,10 @@ footer div {
 @media screen and (max-width: 500px){
         .container{
             background-color: rgba(170, 186, 158, 0.8)
+        }
+
+        .pricing-form{
+            background-color: rgba(170, 186, 158, 0.8)
+
         }
     }
