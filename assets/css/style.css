@@ -240,6 +240,7 @@ figcaption{
 
 .row p{
     margin: 15px;
+    width: 50%;
 }
 
 
@@ -439,6 +440,12 @@ footer div {
     .row img {
         width: 100%;
     }
+
+    .row p{
+        padding: 15px 15px 0; 
+        width: 100%;
+    }
+
 
     #row-reverse{
         flex-flow: column;
