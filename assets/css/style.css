@@ -1,20 +1,23 @@
+/* Global CSS styling */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* creates a responsive scaling of the font-size based on screen size*/
 html {
   font-size: calc(60% + 0.8vmin);
 }
 
+/* body styling */
 body {
     background-color: #B5B8A3;
     font-family: 'Jost', 'Lato', sans-serif;
     width: 100%;
 }
 
-/*header styling*/
+/* header styling */
 header {
     background-color: #C6B89E;
     display: flex;
@@ -54,6 +57,7 @@ nav {
     color: #FCB97D;
 }
 
+/* styling for the mission statement repeated on each page */
 .mission-statement {
     display: flex;
     justify-content: center;
@@ -61,14 +65,6 @@ nav {
     height: 800px;
     color: #fafafa;
     text-align: center;
-}
-
-#mission-statement-index {
-    background: #AABA9E
-                url("https://images.squarespace-cdn.com/content/v1/5d239a8e1176930001df93fe/1627055485060-EV0W12G9SO42SI71EM5Y/art-handler-unconventional-assistance-111.jpeg")
-                top center/100% auto
-                no-repeat
-                fixed;
 }
 
 .container h1 {
@@ -104,6 +100,17 @@ nav {
     text-decoration: none;
     color: #387D7A;
 }
+
+/* changing the background image for the index.html mission statement */
+#mission-statement-index {
+    background: #AABA9E
+                url("../images/art-handlers.jpeg")
+                top center/100% auto
+                no-repeat
+                fixed;
+}
+
+
 
 /*body styling index*/
 #main-content {
@@ -149,8 +156,7 @@ nav {
     text-decoration: underline;
 }
 
-
-/*body styling meet-the-team*/
+/* changing the background image for the meet-the-team.html mission statement */
 #mission-statement-team {
     background: #AABA9E
                 url("../images/teamwork.jpg")
@@ -159,6 +165,7 @@ nav {
                 fixed;
 }
 
+/* body styling meet-the-team */
 #team {
     width: 100%;
     display: flex;
@@ -183,7 +190,8 @@ figcaption{
     text-align: center;
 }
 
-/*body sytling services.html*/
+
+/* changing the background image for the services.html mission statement */
 #mission-statement-services {
     background: #AABA9E
                 url("../images/tools.jpg")
@@ -191,6 +199,8 @@ figcaption{
                 no-repeat
                 fixed;
 }
+
+/* body sytling services.html */
 .services-grid-container{
     display: grid;
     grid-template-rows: auto auto auto auto;
@@ -231,7 +241,7 @@ figcaption{
 }
 
 
-#row-reverse{
+.row-reverse{
     flex-direction: row-reverse;
 }
 
@@ -242,7 +252,7 @@ figcaption{
     color: #FAFAFA
 }
 
-/*pricing form styling*/
+/* background image for pricing.html */
 .pricing-form-container{
     width: 100%;
     margin: 0;
@@ -253,6 +263,7 @@ figcaption{
                 no-repeat;
 }
 
+/*pricing form styling*/
 .form-heading{
     text-decoration: underline;
 }
