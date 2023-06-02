@@ -155,17 +155,17 @@ The goal is to alow the user to make tailored requests for jobs and recieve emai
 
 #### Tablets
 
-- [Home Page. Mobile Screen](documentation/wireframes/index_wireframe_900px.png)
-- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wireframe_900px.png)
-- [Services Page. Mobile Screen](documentation/wireframes/services_wireframe_900px.png)
-- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wireframe_900px.png)
+- [Home Page. Tablet Screen](documentation/wireframes/index_wireframe_900px.png)
+- [About Us Page. Tablet Screen](documentation/wireframes/meet_the_team_wireframe_900px.png)
+- [Services Page. Tablet Screen](documentation/wireframes/services_wireframe_900px.png)
+- [Pricing Page. Tablet Screen](documentation/wireframes/get_a_quote_wireframe_900px.png)
 
 #### Desktop
 
-- [Home Page. Mobile Screen](documentation/wireframes/index_wireframe.png)
-- [About Us Page. Mobile Screen](documentation/wireframes/meet_the_team_wireframe.png)
-- [Services Page. Mobile Screen](documentation/wireframes/services_wireframe.png)
-- [Pricing Page. Mobile Screen](documentation/wireframes/get_a_quote_wireframe.png)
+- [Home Page. Desktop Screen](documentation/wireframes/index_wireframe.png)
+- [About Us Page. Desktop Screen](documentation/wireframes/meet_the_team_wireframe.png)
+- [Services Page. Desktop Screen](documentation/wireframes/services_wireframe.png)
+- [Pricing Page. Desktop Screen](documentation/wireframes/get_a_quote_wireframe.png)
 
 --- 
 ## Testing
