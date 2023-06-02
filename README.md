@@ -207,7 +207,7 @@ Responsivity was maintained across all three web browsers.
 | Services Page | | | | |
 | Get a Quote | Click on 'Get a Quote' button | Direct user to pricing page | Yes | |
 | Pricing Page | | | | |
-| Name Input | User inputs string of charachters | Characters are cprrectly displayed | Yes | |
+| Name Input | User inputs string of characters | Characters are correctly displayed | Yes | |
 | | User submits leaving this field blank | User is prompted to enter a string value | Yes | |
 | Email Input | User inputs string of characters and '@' symbol | Characters and '@' are correctly displayed | Yes | |
 | | User submits leaving this field blank | User is prompted to enter a string value | Yes | |
@@ -237,16 +237,22 @@ Responsivity was maintained across all three web browsers.
     
 ---
 ## Validator testing
-+ ### HTML
-  #### Home Page
-       
-  #### Gallery Page
++ ### [HTML Validator](https://validator.w3.org/)
     
-  #### Contact Page
-   
-  #### Response Page
+    #### Home Page
+  
+    #### About Us Page
+    ![Valid About Us](documentation/valid-about-us.png)  
+    #### Services Page
+    ![Valid Services](documentation/valid-services.png)
+    #### Pricing Page
+    ![Valid Pricing](documentation/valid-pricing.png)
+    ### Thank You Page
         
-+ ### CSS
++ ### [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    
+    #### CSS
+    ![Valid CSS](documentation/valid-css.png)
   
 + ### Accessibility and performance 
 
@@ -254,12 +260,20 @@ Responsivity was maintained across all three web browsers.
 ## Deployment
 - This site was deployed using Github Pages
 - A repository was created on Github from the [Code Institute Full Template](https://github.com/Code-Institute-Org/ci-full-template)
-- The repository url was copied and input as a workspace in [Codeanywhere](https://app.codeanywhere.com/) 
+    ![Create a Repo](documentation/create-a-repo.png)
+- The repository url was copied and input as a workspace in [Codeanywhere](https://app.codeanywhere.com/)
+    ![Clone a repo](documentation/clone-a-repo.png)
+    ![Link to Github](documentation/link-to-git.png)
+    ![Create a workspace](documentation/create-workspace.png)
 - The HTML and CSS were edited in the workspace
 - Using the built-in terminal, changes were git added, git committed, and git pushed to the main branch of the Github repository
+    ![Workspace and Terminal](documentation/workspace-and-terminal.png)
 - From the main branch of the [Github Repository](https://endamagennis.github.io/tuatha_transport/index.html), settings was selected
+    ![Navigate to settings](documentation/navigate-to-settings.png)
 - From there I navigated to the Pages tab
+    ![Navigate to pages](documentation/navigate-to-pages.png)
 - Under Build and Deployment, I navigated to Branch, selected main, selected root, and clicked save
+    ![Select and save](documentation/save-page.png)
 - Github then built and deployed the site in a matter of minutes
 
 
@@ -292,6 +306,5 @@ Responsivity was maintained across all three web browsers.
 - [Claire Heneghan](https://github.com/HeneghanC), my partner who gave feedback and advice on the website.
 - [Alan Bushell](https://github.com/Alan-Bushell), my cohort co-ordinator who gave live feedback during a stand-up and has been helpful throughout the course.
 - [Code Institute](https://codeinstitute.net/ie/), who have given me the tools and knowledge to persue my goal.
-
 ---
 
