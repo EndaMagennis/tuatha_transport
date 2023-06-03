@@ -197,13 +197,13 @@ Responsivity was maintained across all three web browsers.
 ![Edge Pricing GIF](documentation/edge-pricing.gif)
 
 ### Firfox
-![Firefox Home GIF](documentation/firefox-home.gif)
+![Firefox Home GIF](documentation/mozilla-home.gif)
 
-![Firefox Team GIF](documentation/firefox-team.gif)
+![Firefox Team GIF](documentation/mozilla-team.gif)
 
-![Firefox Services GIF](documentation/firefox-services.gif)
+![Firefox Services GIF](documentation/mozilla-services.gif)
 
-![Firefox Pricing GIF](documentation/firefox-pricing.gif)
+![Firefox Pricing GIF](documentation/mozilla-pricing.gif)
 
 + ### Manual Testing
 
