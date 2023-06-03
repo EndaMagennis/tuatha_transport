@@ -180,20 +180,29 @@ Responsivity was maintained across all three web browsers.
 
 ### Chrome
 ![Chrome Home GIF](documentation/chrome-home.gif)
+
 ![Chrome Team GIF](documentation/chrome-team.gif)
+
 ![Chrome Services GIF](documentation/chrome-services.gif)
+
 ![Chrome Pricing GIF](documentation/chrome-pricing.gif)
 
 ### Edge
 ![Edge Home GIF](documentation/edge-home.gif)
+
 ![Edge Team GIF](documentation/edge-team.gif)
+
 ![Edge Services GIF](documentation/edge-services.gif)
+
 ![Edge Pricing GIF](documentation/edge-pricing.gif)
 
 ### Firfox
 ![Firefox Home GIF](documentation/firefox-home.gif)
+
 ![Firefox Team GIF](documentation/firefox-team.gif)
+
 ![Firefox Services GIF](documentation/firefox-services.gif)
+
 ![Firefox Pricing GIF](documentation/firefox-pricing.gif)
 
 + ### Manual Testing
