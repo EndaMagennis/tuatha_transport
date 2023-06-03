@@ -243,8 +243,10 @@ Responsivity was maintained across all three web browsers.
 | Textarea Input | User inputs strings of characters and numbers as required | Inputs are displayed correctly | Yes | |
 | | User attempts to submit leaving this field blank | User is prompted to input this field | Yes | |
 | | User attempts to resize the textarea with click and drag | Resize is constrained to vertical only and there is a minimum height | Yes | |
-| Submit Input | User clicks the submit, having filled our required fields correctly | User is redirected to thank you page | | | 
+| Submit Input | User clicks the submit, having filled our required fields correctly | User is redirected to thank you page | Yes | | 
 | | | User clicks the submit, not having filled our required fields correctly | User is prompted to fill out corresponding field | Yes | |
+| Thank You Page | User clicks on any link | User is redirected to corresponding page | Yes | |
+| | User does not click on any link for seven seconds | User is redirected to Home page | Yes | |
 
 ---
 + ### Bugs
