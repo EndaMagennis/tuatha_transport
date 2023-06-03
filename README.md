@@ -340,7 +340,7 @@ Responsivity was maintained across all three web browsers.
     
 + #### Media
 
-    [art-handlers.jpg](https://images.squarespace-cdn.com/content/v1/5d239a8e1176930001df93fe/1627055485060-EV0W12G9SO42SI71EM5Y/art-handler-unconventional-assistance-111.jpeg?format=1000w) -     Google Images
+    [art-handlers.jpg](https://images.squarespace-cdn.com/content/v1/5d239a8e1176930001df93fe/1627055485060-EV0W12G9SO42SI71EM5Y/art-handler-unconventional-assistance-111.jpeg?format=1000w) - Google Images
 
     [bob.jpg](https://www.pexels.com/photo/portrait-of-young-man-13104454/) - Caique Nascimento
 
