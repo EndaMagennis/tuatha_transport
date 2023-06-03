@@ -3,7 +3,7 @@
 
 Tuatha Transport Services is a fictional art transportation company. The website allows the user to browse the available services and request a quote for selected services.
 
-The site can be accessed [here](https://endamagennis.github.io/tuatha_transport/index.html)
+The site can be accessed [here](https://endamagennis.github.io/tuatha_transport/)
 
 ---
 ## Background to Tuatha
@@ -123,6 +123,8 @@ The goal is to alow the user to make tailored requests for jobs and recieve emai
 - [Stack Overflow](https://stackoverflow.com/) was used for some troubleshooting and implementation.
 - [Pexels](https://www.pexels.com/) was used to source many of the images.
 - [Google Images](https://www.google.com/imghp?hl=EN) was used to source some of the images.
+- [Lightworks](https://lwks.com/) was used to edit videos.
+- [Microsost Clipchamp](https://app.clipchamp.com/login) was used to create GIFs.
 
 --- 
 ## Design
