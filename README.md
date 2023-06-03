@@ -260,14 +260,23 @@ Responsivity was maintained across all three web browsers.
 + ### [HTML Validator](https://validator.w3.org/)
     
     #### Home Page
+
     ![Valid Home](documentation/home.png)
+
     #### About Us Page
+
     ![Valid About Us](documentation/valid-about-us.png)  
+
     #### Services Page
+
     ![Valid Services](documentation/valid-services.png)
+
     #### Pricing Page
+
     ![Valid Pricing](documentation/valid-pricing.png)
+    
     ### Thank You Page
+
     ![Valid Thank You](documentation/valid-thank-you.png)
         
 + ### [CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -280,13 +289,13 @@ Responsivity was maintained across all three web browsers.
     - Home Page
     ![Accessible Home](documentation/access-home.png)
     - About Us Page
-    ![Accessible Home](documentation/access-about-us.png)
+    ![Accessible Team](documentation/access-about-us.png)
     - Services Page
-    ![Accessible Home](documentation/access-services.png)
+    ![Accessible Services](documentation/access-services.png)
     - Pricing Page
-    ![Accessible Home](documentation/access-pricing.png)
+    ![Accessible Pricing](documentation/access-pricing.png)
     - Thank You Page
-    ![Accessible Home](documentation/access-thank-you.png)
+    ![Accessible Thank You](documentation/access-thank-you.png)
 ---
 ## Deployment
 - This site was deployed using Github Pages
@@ -327,47 +336,52 @@ Responsivity was maintained across all three web browsers.
     
 + #### Media
 
-[art-handlers.jpg](https://images.squarespace-cdn.com/content/v1/5d239a8e1176930001df93fe/1627055485060-EV0W12G9SO42SI71EM5Y/art-handler-unconventional-assistance-111.jpeg?format=1000w) - Google Images
+    [art-handlers.jpg](https://images.squarespace-cdn.com/content/v1/5d239a8e1176930001df93fe/1627055485060-EV0W12G9SO42SI71EM5Y/art-handler-unconventional-assistance-111.jpeg?format=1000w) -     Google Images
 
-[bob.jpg](https://www.pexels.com/photo/portrait-of-young-man-13104454/) - Caique Nascimento
+    [bob.jpg](https://www.pexels.com/photo/portrait-of-young-man-13104454/) - Caique Nascimento
 
-[clare.jpg](https://www.pexels.com/photo/woman-wearing-coat-762020/) - Andrea Piacquadio 
+    [clare.jpg](https://www.pexels.com/photo/woman-wearing-coat-762020/) - Andrea Piacquadio 
 
-[fleet.jpg](https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=1600) - Google Images
+    [fleet.jpg](https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=1600) - Google Images
 
-[gene.jpg](https://www.pexels.com/photo/man-wearing-white-dress-shirt-and-black-blazer-2182970/) - LinkedIn Sales Navigator 
+    [gene.jpg](https://www.pexels.com/photo/man-wearing-white-dress-shirt-and-black-blazer-2182970/) - LinkedIn Sales Navigator 
 
-[irma.jpg](https://www.pexels.com/photo/man-with-gray-hair-16779586/) - Estevam Foto 
+    [irma.jpg](https://www.pexels.com/photo/man-with-gray-hair-16779586/) - Estevam Foto 
 
-[joe.jpg](https://www.pexels.com/photo/smiling-man-in-hat-15590488/) - Ifeanyi Ezemenari
+    [joe.jpg](https://www.pexels.com/photo/smiling-man-in-hat-15590488/) - Ifeanyi Ezemenari
 
-[mia.jpg](https://www.pexels.com/photo/young-positive-arabian-muslim-woman-in-hijab-smiling-6194365/) - Monstera    
+    [mia.jpg](https://www.pexels.com/photo/young-positive-arabian-muslim-woman-in-hijab-smiling-6194365/) - Monstera    
 
-[nora.jpg](https://www.pexels.com/photo/woman-standing-near-whiteboard-1181519/) - Christina Morillo
-    
-[phillip.jpg](https://www.pexels.com/photo/man-in-red-button-up-shirt-3777931/) - Andrea Picquadio
+    [nora.jpg](https://www.pexels.com/photo/woman-standing-near-whiteboard-1181519/) - Christina Morillo
 
-[piano.jpeg](https://images.pexels.com/photos/860662/pexels-photo-860662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) - Google Images
+    [phillip.jpg](https://www.pexels.com/photo/man-in-red-button-up-shirt-3777931/) - Andrea Picquadio
 
-[sculpture-installation.jpg](https://images.squarespace-cdn.com/content/v1/53d82827e4b03c30f0c9fd4e/1406677353143-9RE3LB3IXIPIKYJADAOD/lookbook-thumb.jpg) - Google Images
-    
-[sheila.jpg](https://www.pexels.com/photo/smiling-black-model-with-afro-braids-on-gray-background-7275385/) - Dana Hasanbekava
+    [piano.jpeg](https://images.pexels.com/photos/860662/pexels-photo-860662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) - Google Images
 
-[storage.jpg](https://podservices.com.au/wp-content/uploads/2020/06/POD-supporting-image-June-scaled.jpg) - Google Images
+    [sculpture-installation.jpg](https://images.squarespace-cdn.com/content/v1/53d82827e4b03c30f0c9fd4e/1406677353143-9RE3LB3IXIPIKYJADAOD/lookbook-thumb.jpg) - Google Images
 
-[teamwork.jpg](https://images.pexels.com/photos/3280130/pexels-photo-3280130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) - Google Images
+    [sheila.jpg](https://www.pexels.com/photo/smiling-black-model-with-afro-braids-on-gray-background-7275385/) - Dana Hasanbekava
 
-[tools.jpg] (https://www.pexels.com/photo/screws-and-repair-tools-in-box-near-hammer-4792495/) - Anete Lusina
+    [storage.jpg](https://podservices.com.au/wp-content/uploads/2020/06/POD-supporting-image-June-scaled.jpg) - Google Images
+
+    [teamwork.jpg](https://images.pexels.com/photos/3280130/pexels-photo-3280130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) - Google Images
+
+    [tools.jpg](https://www.pexels.com/photo/screws-and-repair-tools-in-box-near-hammer-4792495/) - Anete Lusina
  
     
 + #### Tools
     
-    [Go Full Page](https://chrome.google.com/webstore/detail/full-page-screen-capture/pmabjgjpcbofkbbeiphkiaanogobokgg?gclid=CjwKCAjwyeujBhA5EiwA5WD7_StwU10jzkViA3oaRKF6qgqXOb5OYcu-fmGcBHNlfklhI1H2dHKP4RoCMDsQAvD_BwE) Used to capture entire page in .png format.
-    [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?gclid=CjwKCAjwyeujBhA5EiwA5WD7_StwU10jzkViA3oaRKF6qgqXOb5OYcu-fmGcBHNlfklhI1H2dHKP4RoCMDsQAvD_BwE) Used to check perfomance and accessibilty of each page.
-    [Compress JPEG](https://compressjpeg.com/) used to reduce file size of certain images.
-    [Coolors](https://coolors.co/) was used to generate color palletes.
-    [Color Picker](https://g.co/kgs/sSDxfE) was used to convert color formats from hexidecimal to rgba.
-    [EZGif Optimizer](https://ezgif.com/optimize) was used to reduce GIF file sizes.
+    - [Go Full Page](https://chrome.google.com/webstore/detail/full-page-screen-capture/pmabjgjpcbofkbbeiphkiaanogobokgg?gclid=CjwKCAjwyeujBhA5EiwA5WD7_StwU10jzkViA3oaRKF6qgqXOb5OYcu-fmGcBHNlfklhI1H2dHKP4RoCMDsQAvD_BwE) Used to capture entire page in .png format.
+    
+    - [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?gclid=CjwKCAjwyeujBhA5EiwA5WD7_StwU10jzkViA3oaRKF6qgqXOb5OYcu-fmGcBHNlfklhI1H2dHKP4RoCMDsQAvD_BwE) Used to check perfomance and accessibilty of each page.
+    
+    - [Compress JPEG](https://compressjpeg.com/) used to reduce file size of certain images.
+    
+    - [Coolors](https://coolors.co/) was used to generate color palletes.
+    
+    - [Color Picker](https://g.co/kgs/sSDxfE) was used to convert color formats from hexidecimal to rgba.
+    
+    - [EZGif Optimizer](https://ezgif.com/optimize) was used to reduce GIF file sizes.
 
 ---
 

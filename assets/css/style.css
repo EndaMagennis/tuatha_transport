@@ -5,16 +5,18 @@
     margin: 0;
     font-size: 1rem;
 }
+
 /* Global font sizes */
 h1 {
-  font-size: 2.2rem;
+    font-size: 2.2rem;
 }
+
 h2 {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
 h3 {
-  font-size: 1.3rem;
+    font-size: 1.3rem;
 }
 
 p {
@@ -23,7 +25,7 @@ p {
 
 /* creates a responsive scaling of the font-size based on screen size*/
 html {
-  font-size: calc(60% + 0.8vmin);
+    font-size: calc(60% + 0.8vmin);
 }
 
 /* body styling */
@@ -62,7 +64,7 @@ nav {
     list-style: none;
 }
 
-#menu a{
+#menu a {
     font-size: 1.6rem;
     text-decoration: none;
     color: #FAFAFA;
@@ -114,11 +116,7 @@ nav {
 
 /* changing the background image for the index.html mission statement */
 #mission-statement-index {
-    background: #AABA9E
-                url("../images/art-handlers.jpeg")
-                top center/100% auto
-                no-repeat
-                fixed;
+    background: #AABA9E url("../images/art-handlers.jpeg") top center/100% auto no-repeat fixed;
 }
 
 /*body styling index*/
@@ -136,7 +134,7 @@ nav {
     padding: 25px;
 }
 
-#main-content img{
+#main-content img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -168,11 +166,7 @@ nav {
 
 /* changing the background image for the meet-the-team.html mission statement */
 #mission-statement-team {
-    background: #AABA9E
-                url("../images/teamwork.jpg")
-                top center/100% auto
-                no-repeat
-                fixed;
+    background: #AABA9E url("../images/teamwork.jpg") top center/100% auto no-repeat fixed;
 }
 
 /* body styling meet-the-team */
@@ -196,22 +190,18 @@ nav {
     object-fit: cover;
 }
 
-figcaption{
+figcaption {
     text-align: center;
 }
 
 
 /* changing the background image for the services.html mission statement */
 #mission-statement-services {
-    background: #AABA9E
-                url("../images/tools.jpg")
-                top center/100% auto
-                no-repeat
-                fixed;
+    background: #AABA9E url("../images/tools.jpg") top center/100% auto no-repeat fixed;
 }
 
 /* body sytling services.html */
-.services-grid-container{
+.services-grid-container {
     display: grid;
     grid-template-rows: auto auto auto auto;
     gap: 0;
@@ -219,8 +209,8 @@ figcaption{
     text-align: center;
 }
 
-.row{
-    display:flex;
+.row {
+    display: flex;
     width: 100%;
     height: 400px;
     flex-flow: row nowrap;
@@ -231,24 +221,24 @@ figcaption{
     border: 2px solid #fafafa;
 }
 
-.row img{
+.row img {
     width: 50%;
     height: auto;
     margin: 15px;
 
 }
 
-.row p{
+.row p {
     margin: 15px;
     width: 50%;
 }
 
 
-.row-reverse{
+.row-reverse {
     flex-direction: row-reverse;
 }
 
-#services h2{
+#services h2 {
     justify-self: flex-end;
     text-decoration: underline;
     padding: 1.5rem;
@@ -256,26 +246,23 @@ figcaption{
 }
 
 /* background image for pricing.html */
-.pricing-form-container{
+.pricing-form-container {
     width: 100%;
     margin: 0;
     padding: 20px;
-    background: #AABA9E
-                url("../images/art-handlers.jpeg")
-                top center/100% 
-                no-repeat;
+    background: #AABA9E url("../images/art-handlers.jpeg") top center/100% no-repeat;
 }
 
 /*pricing form styling*/
-.form-heading{
+.form-heading {
     text-decoration: underline;
 }
 
-.pricing-form-container h2{
+.pricing-form-container h2 {
     text-decoration: underline;
 }
 
-form{
+form {
     background-color: rgba(170, 186, 158, 0.6);
     display: flex;
     justify-content: space-around;
@@ -287,11 +274,11 @@ form{
     border-radius: 20px;
 }
 
-.inline{
+.inline {
     display: inline;
 }
 
-.required-services{
+.required-services {
     display: block;
 }
 
@@ -301,13 +288,44 @@ textarea {
     resize: vertical;
 }
 
-.text-input{
+.text-input {
     width: 200px;
 }
 
-button{
+button {
     justify-self: center;
     width: 100px;
+}
+
+/* Thank you page styling */
+
+.thank-you {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background: #AABA9E url("../images/piano.jpeg") top center/100% no-repeat;
+}
+
+.thank-you-message {
+    color: #fafafa;
+    text-transform: capitalize;
+    align-self: center;
+    justify-self: center;
+    background-color: rgba(170, 186, 158, 0.9);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.thank-you-message h1 {
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.thank-you-message h2 {
+    padding-bottom: 10px;
 }
 
 /*footer styling*/
@@ -343,93 +361,98 @@ footer div {
 }
 
 /*Media queries for increased responsiveness*/
-@media screen and (max-width: 1200px){
-    .mission-statement{
+@media screen and (max-width: 1200px) {
+
+    .mission-statement {
         height: 600px;
     }
 
-    #main-content{
+    #main-content {
         align-items: flex-start;
         justify-content: center;
     }
 
-    #main-content img{
+    #main-content img {
         height: 400px;
         width: 100%;
         object-fit: cover;
     }
 }
 
-@media screen and (max-width: 950px){
-    .mission-statement{
+@media screen and (max-width: 950px) {
+    .mission-statement {
         height: 400px;
     }
-    
-    #main-content{
+
+    #main-content {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
 
-    #main-content section{
+    #main-content section {
         width: 100%;
     }
 
     textarea {
-    width: 300px;
+        width: 300px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .mission-statement{
+    .mission-statement {
         height: 300px;
     }
 
-    .mission-statement h1{
+    .mission-statement h1 {
         font-size: 200%;
     }
 
-    .mission-statement h2{
+    .mission-statement h2 {
         font-size: 150%;
     }
 
-     #main-content img{
-         width: 100%;
-         height: auto;
-         object-fit: cover;
-         background-position: top center;
-     }
+    #main-content img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        background-position: top center;
+    }
 
-    .pairs{
+    .pairs {
         width: 50%;
         height: auto;
+    }
+
+    .thank-you {
+        height: 300px;
+        background: #AABA9E url("../images/piano.jpeg") center center/100% no-repeat;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .mission-statement{
+    .mission-statement {
         height: 200px;
     }
 
-    .mission-statement h1{
-    }
+    .mission-statement h1 {}
 
-    .mission-statement h2{
+    .mission-statement h2 {
         margin: 10px;
     }
 
-    .button{
+    .button {
         font-size: small;
     }
 
-    .container{
+    .container {
         height: 100px;
         width: 80%;
         height: auto;
         padding: 15px;
     }
-    
-    .row{
+
+    .row {
         height: auto;
         margin: 0;
         padding: 0;
@@ -441,39 +464,43 @@ footer div {
         width: 100%;
     }
 
-    .row p{
-        padding: 15px 15px 0; 
+    .row p {
+        padding: 15px 15px 0;
         width: 100%;
     }
 
 
-    #row-reverse{
+    #row-reverse {
         flex-flow: column;
     }
 
-    .pricing-form-container{
+    .pricing-form-container {
         width: 100%;
         background-attachment: cover;
     }
 
-    .pricing-form{
+    .pricing-form {
         width: 100%;
         justify-self: flex-start;
         margin: 0;
     }
 }
 
-@media screen and (max-width: 500px){
-        .container{
-            background-color: rgba(170, 186, 158, 0.8);
-            align-self: flex-start;
-        }
-        .pricing-form{
-            background-color: rgba(170, 186, 158, 0.8)
-
-        }
-
-        #mission-statement-services h2{
-            font-size: 1.3rem;
-        }
+@media screen and (max-width: 500px) {
+    .container {
+        background-color: rgba(170, 186, 158, 0.8);
+        align-self: flex-start;
     }
+
+    .pricing-form {
+        background-color: rgba(170, 186, 158, 0.8)
+    }
+
+    #mission-statement-services h2 {
+        font-size: 1.3rem;
+    }
+
+    .thank-you {
+        height: auto;
+    }
+}
