@@ -9,8 +9,8 @@ The site can be accessed [here](https://endamagennis.github.io/tuatha_transport/
 ## Background to Tuatha
 
 The inspiration to create a website based on this industry comes from personal experience. My father founded and owned a leading art transportation company before retirement,
-giving me a unique insight into the inner workings of such a company. Tuatha is a slightly more corporate, and expansive version of the former family business. As a Galway-based company,
-the logo bares the Galway colours of maroon and white. The name Tuatha, which translates to 'tribe', is also a refernce to Galway being the 'City of Tribes'.
+giving me a unique insight into the inner workings of such a company. Tuatha is a slightly more corporate and expansive version of the former family business. As a Galway-based company,
+the logo bares the Galway colours of maroon and white. The name Tuatha, which translates to 'tribe', is also a reference to Galway being the 'City of Tribes'.
 
 ---
 ## User Stories
@@ -92,7 +92,7 @@ The goal is to give a clear and concise breakdown of the services provided and h
         * Includes textarea
         * Includes submit input   
 
-The goal is to alow the user to make tailored requests for jobs and recieve email feedback in a timely manner
+The goal is to allow the user to make tailored requests for jobs and recieve email feedback in a timely manner
 ![Pricing](documentation/pricing-desktop.png)
 
 --- 
@@ -113,11 +113,11 @@ The goal is to alow the user to make tailored requests for jobs and recieve emai
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was the foundation of the site architecture.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) was used for styling the HTML elements.
 - [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) was used for responsive design on each page.
-- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) was used partially for the services page layout.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) was used partially for formatting imaga and text pairs.
 - [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [Codeanywhere](https://app.codeanywhere.com/) was used as the primary code editor.
 - [Git](https://git-scm.com/) was used for the version control of the website.
-- [GitHub](https://github.com/) was used to host the code and deploy the sight.
+- [GitHub](https://github.com/) was used to host the code and deploy the site.
 - [GIMP](https://www.gimp.org/) was used to create the logo for Tuatha.
 - [COOLERS](https://coolors.co/) was used to generate color pallletes.
 - [Stack Overflow](https://stackoverflow.com/) was used for some troubleshooting and implementation.
@@ -138,7 +138,7 @@ The goal is to alow the user to make tailored requests for jobs and recieve emai
 ### Typogrphy
 
 ![Jost Font](documentation/font-jost.png)
-- Jost font from Goolge was the main font used throughout the site, it is a sans serif font with high readability with a touch of styling
+- Jost font from Goolge was the main font used throughout the site, it is a sans serif font with high readability and a hint of styling
 
 
 ![Lato Font](documentation/base-font-lato.png)
@@ -196,7 +196,7 @@ Responsivity was maintained across all three web browsers.
 
 ![Edge Pricing GIF](documentation/edge-pricing.gif)
 
-### Firfox
+### Firefox
 ![Firefox Home GIF](documentation/mozilla-home.gif)
 
 ![Firefox Team GIF](documentation/mozilla-team.gif)
@@ -252,9 +252,9 @@ Responsivity was maintained across all three web browsers.
 + ### Bugs
 - Page didn't fully fit browser window. Solution: set global margin to 0.
 - Images consistently overlapped with other elements and broke their contraints. Solution: used [object-fit](https://www.w3schools.com/css/css3_object-fit.asp) property.
-- 'Get a Quote' button highlighting glitch. Solution: make an <a> element and style it as a button, rather than using a button element containing and <a> element.
+- 'Get a Quote' button highlighting glitch. Solution: make a link element and style it as a button, rather than using a button element containing a link element.
 - Textarea resize broke responsive design. Solution: set min-height and constrain resize property to vertical only.
-- Image scale for services.html was completely broken in Firefox. Solution: target the <p> element in the row class and set its width to 50%.
+- Image scale for services.html was completely broken in Firefox. Solution: target the paragraph element in the row class and set its width to 50%.
 
 - ![Firefox Bug](documentation/firefox-bug.gif)
     
@@ -299,6 +299,7 @@ Responsivity was maintained across all three web browsers.
     ![Accessible Pricing](documentation/access-pricing.png)
     - Thank You Page
     ![Accessible Thank You](documentation/access-thank-you.png)
+
 ---
 ## Deployment
 - This site was deployed using Github Pages
@@ -319,13 +320,13 @@ Responsivity was maintained across all three web browsers.
     ![Select and save](documentation/save-page.png)
 - Github then built and deployed the site in a matter of minutes
 
-
 ---
 
 ## Future improvements
 - More frequent commits for more focused chunks of work as I often changed multiple, disparate aspects of the project with an insufficient commit comment
 - More stringent adherence to commit practices
 - Create a genuine estimate calculator which will use the inputs of the form to generate an actual quote and send the customer an email
+- Document the process of planning and creation more frequently
 
 ---
 ## Credits
