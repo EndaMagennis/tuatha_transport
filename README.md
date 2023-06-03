@@ -264,7 +264,7 @@ Responsivity was maintained across all three web browsers.
     
     #### Home Page
 
-    ![Valid Home](documentation/valid-home.png)
+    ![Valid Home](documentation/valid-index.png)
 
     #### About Us Page
 
