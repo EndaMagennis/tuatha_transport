@@ -253,7 +253,8 @@ Responsivity was maintained across all three web browsers.
 - 'Get a Quote' button highlighting glitch. Solution: make an <a> element and style it as a button, rather than using a button element containing and <a> element.
 - Textarea resize broke responsive design. Solution: set min-height and constrain resize property to vertical only.
 - Image scale for services.html was completely broken in Firefox. Solution: target the <p> element in the row class and set its width to 50%.
-![Firefox Bug]()
+
+- ![Firefox Bug](documentation/firefox-bug.gif)
     
 ---
 ## Validator testing
@@ -261,7 +262,7 @@ Responsivity was maintained across all three web browsers.
     
     #### Home Page
 
-    ![Valid Home](documentation/home.png)
+    ![Valid Home](documentation/valid-home.png)
 
     #### About Us Page
 
@@ -274,7 +275,7 @@ Responsivity was maintained across all three web browsers.
     #### Pricing Page
 
     ![Valid Pricing](documentation/valid-pricing.png)
-    
+
     ### Thank You Page
 
     ![Valid Thank You](documentation/valid-thank-you.png)
@@ -329,10 +330,11 @@ Responsivity was maintained across all three web browsers.
 
 + #### Content
     
-    [Responsive Font Styling](https://sjorswijsman.medium.com/3-easy-css-tricks-for-responsive-websites-i-use-in-every-project-68ec334a1522)
-    [Grid Templating](https://css-tricks.com/almanac/properties/g/grid-template-columns/)
-    [Automatically redirect user to Homepage](https://www.w3schools.com/tags/att_meta_http_equiv.asp)
-    [Services Page Layout](https://www.irishartservices.com/services/)
+    - [Responsive Font Styling](https://sjorswijsman.medium.com/3-easy-css-tricks-for-responsive-websites-i-use-in-every-project-68ec334a1522)
+    - [Flex-box](https://www.w3schools.com/css/css3_flexbox.asp)
+    - [Grid Templating](https://css-tricks.com/almanac/properties/g/grid-template-columns/)
+    - [Automatically redirect user to Homepage](https://www.w3schools.com/tags/att_meta_http_equiv.asp)
+    - [Services Page Layout](https://www.irishartservices.com/services/)
     
 + #### Media
 
@@ -390,6 +392,7 @@ Responsivity was maintained across all three web browsers.
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova), my mentor who gave me excellent advice, tips, and resources throughout this project and has pushed me to improve.
 - [Claire Heneghan](https://github.com/HeneghanC), my partner who gave feedback and advice on the website.
 - [Alan Bushell](https://github.com/Alan-Bushell), my cohort co-ordinator who gave live feedback during a stand-up and has been helpful throughout the course.
+- [My Hackathon Team](https://hackathon.codeinstitute.net/teams/317/), who gave me the best hands-on experience you could hope for. May the Force be with you all!
 - [Code Institute](https://codeinstitute.net/ie/), who have given me the tools and knowledge to persue my goal.
 ---
 
